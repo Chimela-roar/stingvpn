@@ -1,5 +1,6 @@
 import 'package:sailor/sailor.dart';
 import 'package:stingvpn/screens/Home_screen.dart';
+import 'package:stingvpn/screens/server_screen.dart';
 import 'package:stingvpn/screens/splash_screen.dart';
 
 class Routes {
@@ -10,12 +11,17 @@ class Routes {
       SailorRoute(
           name: '/Splash',
           builder: (context, args, params) {
-            return Splash();
+            return const Splash();
           }),
       SailorRoute(
           name: '/Home',
           builder: (context, args, params) {
-            return Home();
+            return const Home();
+          }),
+          SailorRoute(
+          name: '/Server',
+          builder: (context, args, params) {
+            return Server();
           }),
     ]);
   }

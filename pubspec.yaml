@@ -44,8 +44,9 @@ dev_dependencies:
   flutter_lints: ^1.0.0
 
 flutter_native_splash:
-  color: "#9ae79a"
-  image: images/Splash 1.svg
+  color: "#FFFFFF"
+  image: images/Splash.png
+  android: true
 
 flutter:
 
